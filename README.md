@@ -1,13 +1,13 @@
-# KURS NAME
+# SharePoint Framework - Lösungen entwickeln
 
 Ein Kurs von PPEDV :rocket:
 
-Datum: xx.xx.2020
+Datum: 17.03.2021
 
-Ort: VC / ...
+Ort: VC
 
-Format: Vollzeit / Teilzeit
+Format: Vollzeit
 
-[Agenda von diesem Kurs auf ppedv.de](füge hier die globale URL ein)
+[Agenda von diesem Kurs auf ppedv.de](https://ppedv.de/Schulung/Kurse/SharePointServerEntwicklungProgrammierungWebPartVisualStudioSharePointDesignerAPIEventReceiverBCSKursSeminarSchulungTraining.aspx)
 
 Ablauf vom Kurs siehe [hier](./TRAINER/readme.md).

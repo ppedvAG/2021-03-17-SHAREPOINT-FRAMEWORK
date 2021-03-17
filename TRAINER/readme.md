@@ -2,19 +2,18 @@
 
 ## M000 | WARMING UP
 
-- [ ] Folien: GREETER.pdf
-- [ ] Demo:
+- [x] Folien: GREETER.pdf
 - [ ] Lab:
-  - [ ] Vorstellung Teams-Meeting
+  - [x] Vorstellung Teams-Meeting
   - [ ] Anmelden bei Virtuellen Maschinen
-  - [ ] Anmelden bei Übungsprofilen für Microsoft 365
-- [ ] Commit:
+- [x] Commit: [struktur angepasst](https://github.com/ppedvAG/2021-03-17-SHAREPOINT-FRAMEWORK/commit/a992a251e7e3f4d3759a6939947fd9d3f996d30d)
 
 ## M001 | SHAREPOINT FRAMEWORK (SPFX) EINFÜHRUNG
 
 - [ ] Folien: SPFX.pdf >
 - [ ] Demo:
 - [ ] Lab Aufgabenstellung: siehe letzte Folie im Kapitel
+- [ ] Anmelden bei Übungsprofilen für Microsoft 365
 - [ ] Lab Lösung:
 - [ ] Commit:
 
@@ -77,7 +76,7 @@
 ## MXXX | REACT IN SHAREPOINT
 
 - [ ] Folien: SPFX.pdf >
-- [ ] Demo:
+- [ ] Demo: [first react wb](./react-wp/src/webparts/firstReactWp/components/FirstReactWp.tsx)
 - [ ] Lab Aufgabenstellung: siehe letzte Folie im Kapitel
 - [ ] Lab Lösung:
 - [ ] Commit:
