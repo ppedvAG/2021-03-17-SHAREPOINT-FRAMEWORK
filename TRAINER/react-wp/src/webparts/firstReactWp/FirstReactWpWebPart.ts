@@ -20,6 +20,8 @@ export default class FirstReactWpWebPart extends BaseClientSideWebPart<IFirstRea
   // Geben Sie diese Properties vom Objekt 'user' durch eine separate React-Komponente aus!
   user = {firstName: 'Max', lastName: 'Mustermann', id: 123}
 
+
+
   public render(): void {
     // neues ReactElement wird anhand von der Komponente FirstReactWp angelegt. 
     // Properties für diese Komponente werden als Objekt {description: ...} übergeben
@@ -30,9 +32,19 @@ export default class FirstReactWpWebPart extends BaseClientSideWebPart<IFirstRea
         user: this.user
       }
     );
-
     ReactDom.render(element, this.domElement);
   }
+
+  // verursacht endloses laden vom Web Part
+/*   protected onInit(): Promise<void> {
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then(response => response.json())
+    .then(json => console.log(json))
+
+    return new Promise<void>(() => {
+      console.log(' Promise in onInit was created');
+    })
+  } */
 
   protected onDispose(): void {
     ReactDom.unmountComponentAtNode(this.domElement);
