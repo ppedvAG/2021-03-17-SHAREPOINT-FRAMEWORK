@@ -9,6 +9,19 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
   }
 
+  .wteimg {
+    width: 45%; 
+    float: left;
+  }
+
+  .wteright {
+    display: inline !important;
+  }
+  .wtelink {
+    font-size: .8em;
+    display: block;
+  }
+
   .row {
     @include ms-Grid-row;
     @include ms-fontColor-white;
